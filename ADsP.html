@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="javascript.js"></script>
+
+    <title>Hyung Jun Park - ADsP</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <a href="index.html"> Hyung Jun Park </a>
+    </header>
+
+    <div class="grid">
+      <aside class="left">
+        <div class="innerGrid">
+          <div class="home">
+            <a href="index.html">
+              <img id="homeImg" src="home.png" alt="home" />
+            </a>
+          </div>
+          <div class="nightDay">
+            <input
+              id="nightDayButton"
+              type="image"
+              src="moon.png"
+              value="dark"
+              onclick="imgChange(this)"
+            />
+            <!--<img
+              src="img/moon.png"
+              alt="nightDayHandler"
+            />-->
+          </div>
+        </div>
+        <ul class="list">
+          <li>
+            <a
+              href="What I learned.html"
+              onmouseover="mouseOver(this)"
+              onmouseout="mouseOut(this)"
+              >&nbsp;What I learned &nbsp;</a
+            >
+          </li>
+          <li>
+            <a
+              href="정보처리기사.html"
+              onmouseover="mouseOver(this)"
+              onmouseout="mouseOut(this)"
+              >&nbsp;정보처리기사
+              <span class="year">(2024)&nbsp;&nbsp;</span></a
+            >
+          </li>
+          <li>
+            <span class="currentLocation">&nbsp;→</span>
+            ADsP
+            <span class="year"
+              >&nbsp;(데이터분석준전문가) (2023)&nbsp;&nbsp;</span
+            >
+          </li>
+          <li>
+            <a
+              href="etc.html"
+              onmouseover="mouseOver(this)"
+              onmouseout="mouseOut(this)"
+              >&nbsp;ETC&nbsp;</span
+              ></a
+            >
+          </li>
+        </ul>
+      </aside>
+      <div class="right">
+        <img class="cert" src="ADsP.png" alt="ADsP" />
+        <p class="explaination">
+          공식적으로 제출하는 것이 아니다보니 개인정보보호를 위해
+          <br /><br />한국데이터산업진흥원 합격 페이지 캡쳐본으로 자격증 원본을
+          <br /><br />대신하는 점 양해부탁드립니다.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

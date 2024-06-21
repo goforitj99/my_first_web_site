@@ -1,0 +1,191 @@
+body {
+  margin: 0;
+}
+.header {
+  font-size: 10vw;
+  font-weight: bold;
+  text-align: center;
+  border-bottom: 2px solid grey;
+  padding: 20px 0 20px;
+}
+
+.header a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.grid {
+  margin: 0;
+  display: grid;
+  grid-template-columns: 320px 1fr;
+}
+
+.left {
+  padding-top: 50px;
+}
+
+.left .list {
+  /*margin: 0;*/
+  list-style-type: none;
+  /* display: flex; */
+  /* flex-direction: column-reverse; */
+}
+
+.left .list .currentLocation {
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.left .list li {
+  font-size: large;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.left .list a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.left .list span {
+  color: inherit;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+.left .list a:hover {
+  /* 원래 hover로 효과 줬었는데 mouseOver(), mouseOut()함수로 대체하여 지금은 사용하지 않는 코드 */
+  /*background-color: bisque;
+  border-radius: 10px;
+  /* font-size: 19px; */
+}
+
+.left .innerGrid {
+  display: grid;
+  grid-template-columns: 90px 1fr;
+  margin-bottom: 30px;
+}
+
+.left .home {
+  /*margin: 0;*/
+  /* padding: 0; */
+  width: 31px;
+  height: 31px;
+  padding-left: 43px;
+  padding-top: 3px;
+
+  /* margin-bottom: 25px;
+  margin-left: 40px; */
+}
+.left .home img {
+  width: 31px;
+  height: 31px;
+}
+.left .nightDay {
+  /* margin: 0; */
+  padding-left: 45px;
+  width: 35px;
+  height: 35px;
+  /* margin-bottom: 25px; */
+}
+.left .nightDay input {
+  margin: 0;
+  width: 34px;
+  height: 34px;
+}
+
+/*
+.left {
+  position: sticky;
+}
+
+.innerGrid,
+.list {
+  position: sticky;
+} */
+
+.right {
+  text-align: center;
+  padding-bottom: 500px;
+}
+
+.wil {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 50px;
+  gap: 50px;
+}
+
+.wil .item {
+  padding: 0;
+}
+
+.wil img {
+  width: 50%;
+  height: 85%;
+  border: 2px solid gray;
+}
+
+.wil .onprocess {
+  height: 50%;
+}
+
+.right .me {
+  width: 30%;
+  margin-top: 100px;
+}
+
+.right .cert {
+  width: 50%;
+  margin-top: 100px;
+  border: 2px solid gray;
+}
+
+.right .explaination {
+  margin: 0 auto;
+  margin-top: 75px;
+  font-size: 21px;
+  width: 45%;
+  font-weight: bold;
+}
+
+.right h1 {
+  margin-top: 25px;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.right h2 {
+  margin-top: 25px;
+}
+
+.right .etc {
+  text-align: left;
+  padding-top: 50px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.right .etc li {
+  margin-bottom: 20px;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.right .etc .etcAwards {
+  padding-top: 25px;
+  line-height: 250%;
+}
+
+.right .etcEx {
+  margin-top: 200px;
+  font-size: 21px;
+
+  font-weight: bold;
+}
+
+.right .etcEx img {
+  width: 30px;
+}

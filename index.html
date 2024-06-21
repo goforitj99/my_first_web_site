@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="javascript.js"></script>
+
+    <title>Hyung Jun Park</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <a href="index.html"> Hyung Jun Park </a>
+    </header>
+
+    <div class="grid">
+      <aside class="left">
+        <div class="innerGrid">
+          <div class="home">
+            <a href="index.html">
+              <img id="homeImg" src="home.png" alt="home" />
+            </a>
+          </div>
+          <div class="nightDay">
+            <input
+              id="nightDayButton"
+              type="image"
+              src="moon.png"
+              value="dark"
+              onclick="imgChange(this)"
+            />
+            <!--<img
+              src="img/moon.png"
+              alt="nightDayHandler"
+            />-->
+          </div>
+        </div>
+        <ul class="list">
+          <li>
+            <a
+              href="What I learned.html"
+              onmouseover="mouseOver(this)"
+              onmouseout="mouseOut(this)"
+              >&nbsp;What I learned &nbsp;</a
+            >
+          </li>
+          <li>
+            <a
+              href="정보처리기사.html"
+              onmouseover="mouseOver(this)"
+              onmouseout="mouseOut(this)"
+              >&nbsp;정보처리기사
+              <span class="year">(2024)&nbsp;&nbsp;</span></a
+            >
+          </li>
+          <li>
+            <a
+              href="ADsP.html"
+              onmouseover="mouseOver(this)"
+              onmouseout="mouseOut(this)"
+              >&nbsp;ADsP<span class="year"
+                >&nbsp;(데이터분석준전문가) (2023)&nbsp;&nbsp;</span
+              ></a
+            >
+          </li>
+          <li>
+            <a
+              href="etc.html"
+              onmouseover="mouseOver(this)"
+              onmouseout="mouseOut(this)"
+              >&nbsp;ETC&nbsp;</span
+              ></a
+            >
+          </li>
+        </ul>
+      </aside>
+      <div class="right">
+        <img class="me" src="me.png" alt="ID photos" />
+
+        <h1 class="introduction1">Hyung Jun Park</h1>
+
+        <br />
+
+        <h2>
+          프론트엔드 개발자가<br /><br /><br />되고싶은<br /><br /><br />야생의
+          코린이..
+        </h2>
+      </div>
+    </div>
+  </body>
+</html>
